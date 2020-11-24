@@ -31,7 +31,7 @@ function render(variables = {}) {
   if (variables.name === null) variables.name = "Lucy";
   if (variables.lastname === null) variables.lastname = "Boilett";
   if (variables.socialMediaPosition === null)
-    variables.socialMediaPosition = "right";
+    variables.socialMediaPosition = "";
   if (variables.twitter === null) variables.twitter = "alesanchezr";
   if (variables.github === null) variables.github = "alesanchezr";
   if (variables.linkedin === null) variables.linkedin = "alesanchezr";
